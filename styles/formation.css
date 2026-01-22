@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+ 
+    background-color: burlywood;
+    background-size: cover;        /* l’image prend tout l’écran */
+    background-repeat: no-repeat;   /* pas de répétition */
+    background-position: center;    /* centrée */
+}
+
+/* ----- BARRE DU HAUT ----- */
+#barre-haut {
+    /* Espace autour du contenu de la barre */
+    padding: 15px 40px;
+
+    /* Flexbox met le logo et le menu sur la même ligne */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#menu a {
+    color: white;              
+    text-decoration: none;     /* enlève le soulignement */
+    margin-left: 20px;         
+    font-size: 13px;
+    text-transform: uppercase; 
+}
+
+#titre {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#résumé {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: rgb(175, 86, 13);
+    margin-left: 20px;
+    margin-right: 600px;
+    margin-top: 30px;
+}
+
+#para-resu {
+    margin-top: 80px;
+}
+
+#img1 {
+    width:  600px;
+}
+
+#img2 {
+    width: 150px;
+}
+
+#img3 {
+    width: 150px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-right: 800px;
+    border-style: solid;
+    border-color: rgb(175, 86, 13);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#SISR {
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+}
+
+#SLAM {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#text-SL {
+    margin-top: 40px;
+
+}

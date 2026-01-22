@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image: url("fond2.jpg");
+    background-size: cover;        /* l’image prend tout l’écran */
+    background-repeat: no-repeat;   /* pas de répétition */
+    background-position: center;    /* centrée */
+}
+
+/* ----- BARRE DU HAUT ----- */
+.barre-haut {
+    /* Espace autour du contenu de la barre */
+    padding: 15px 40px;
+
+    /* Flexbox met le logo et le menu sur la même ligne */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#menu a {
+    color: white;              
+    text-decoration: none;     /* enlève le soulignement */
+    margin-left: 20px;         
+    font-size: 13px;
+    text-transform: uppercase; 
+}
+
+/* ----- BLOC PRINCIPAL AVEC L'IMAGE ----- */
+.bloc-principal {
+    color: white;
+    height: 90vh;
+    
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+
+    
+    text-align: center;
+}
+
+/* Style du titre principal "BIENVENUE SUR MON PORTFOLIO" */
+.texte-centre h1 {
+    font-size: 50px;
+    margin: 10px 0; 
+    padding-bottom: 70px; 
+}
+
+#btn-cv {
+    color: white;
+    background-color: darkgreen;
+    padding: 15px 26px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+

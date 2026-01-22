@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+ 
+    background-color: burlywood;
+    background-size: cover;        /* l’image prend tout l’écran */
+    background-repeat: no-repeat;   /* pas de répétition */
+    background-position: center;    /* centrée */
+}
+
+/* ----- BARRE DU HAUT ----- */
+#barre-haut {
+    /* Espace autour du contenu de la barre */
+    padding: 15px 40px;
+
+    /* Flexbox met le logo et le menu sur la même ligne */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#menu a {
+    color: white;              
+    text-decoration: none;     /* enlève le soulignement */
+    margin-left: 20px;         
+    font-size: 13px;
+    text-transform: uppercase; 
+}
+
+#COMPETENCES {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.sous-titre {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(175, 86, 13);
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#img1 {
+    width: 140px;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#image-sql {
+    display: flex;
+    justify-content: center;
+}
+
+#img-sql {
+    width: 140px;
+    height: 80px;
+}
+
+
+

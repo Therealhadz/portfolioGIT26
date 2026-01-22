@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+ 
+    background-color: burlywood;
+    background-size: cover;        /* l’image prend tout l’écran */
+    background-repeat: no-repeat;   /* pas de répétition */
+    background-position: center;    /* centrée */
+}
+
+/* ----- BARRE DU HAUT ----- */
+#barre-haut {
+    /* Espace autour du contenu de la barre */
+    padding: 15px 40px;
+
+    /* Flexbox met le logo et le menu sur la même ligne */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#menu a {
+    color: white;              
+    text-decoration: none;     /* enlève le soulignement */
+    margin-left: 20px;         
+    font-size: 13px;
+    text-transform: uppercase; 
+}
+
+#titre {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#procédures {
+    color: white;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+#pro1 {
+    color: white;
+    background-color: rgb(175, 86, 13);
+    padding: 15px 26px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#pro2 {
+    color: white;
+    background-color: rgb(175, 86, 13);
+    padding: 15px 26px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+}

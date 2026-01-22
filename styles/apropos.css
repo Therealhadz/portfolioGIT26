@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+ 
+    background-image: url("staspais.jpg");
+    background-size: cover;        /* l’image prend tout l’écran */
+    background-repeat: no-repeat;   /* pas de répétition */
+    background-position: center;    /* centrée */
+}
+
+#barre-haut {
+    /* Espace autour du contenu de la barre */
+    padding: 15px 40px;
+
+    /* Flexbox met le logo et le menu sur la même ligne */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+#menu a {
+    color: white;              
+    text-decoration: none;     /* enlève le soulignement */
+    margin-left: 20px;         
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#parcours {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+#image2 {
+    width: 80px;
+    height: 80px;
+    margin-left: 230px;
+}
+
+#image1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+
+}
+
+#formation {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 120px;
+}
+
+.carte {
+    text-align: center;
+    margin: 0px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
